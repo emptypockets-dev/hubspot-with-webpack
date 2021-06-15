@@ -1,0 +1,12 @@
+defaultPortal: dev
+portals:
+  - name: dev
+    portalId: 8020292
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CLbLsvKgLxIEAA0ADBjEwukDII-LrwUo7ukMMhkAX6MVdkZBZ3V_Ojeb6qsRMtBrC-1jY-lGOigAAARBAAAAeAAAAAAAAAAAgAEAAAAAAATAAMAHYAAAAAAAAAAAAABgQhkAX6MVdsdKsM1ageyzHWka_AOJSPQnXLbGSgNuYTE
+        expiresAt: '2021-06-15T06:12:22.076Z'
+    personalAccessKey: >-
+      CiRkOGVlNzM3Yy0wMGQ4LTQwNjgtYmRiYi04OWU0YWJiNTFlYmIQxMLpAxiPi68FKhkABeaRgg-QNdeOlU6SHx6vpQ1Ru_Zu_mzwSgNuYTE
