@@ -1,26 +1,15 @@
 const HubSpotAutoUploadPlugin = require('@hubspot/webpack-cms-plugins/HubSpotAutoUploadPlugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
-module.exports = ({ account, autoupload = true }) => ({
+module.exports = ({ account, autoupload }) => ({
     entry: './src/index.js',
     output: {
         filename: 'js/main.js',
     },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                },
-            },
-        ],
-    },
     plugins: [
         new HubSpotAutoUploadPlugin({
-            autoupload,
             account,
+            autoupload,
             src: 'dist',
             dest: 'theme-with-webpack',
         }),
