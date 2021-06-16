@@ -1,12 +1,12 @@
 defaultPortal: dev
 portals:
-    - name: dev
-      portalId: 8020292
-      authType: personalaccesskey
-      auth:
-          tokenInfo:
-              accessToken: >-
-                  CKGN-YKhLxIEAA0ADBjEwukDII-LrwUo7ukMMhkAh79ePNJjpo60Z8dL5Rtw-tnW5E6E5W2HOigAAARBAAAAeAAAAAAAAAAAgAEAAAAAAATAAMAHYAAAAAAAAAAAAABgQhkAh79ePCsWdFTkGq9Wek7RLZasEHOv6GW_SgNuYTE
-              expiresAt: '2021-06-15T15:50:51.815Z'
-      personalAccessKey: >-
-          CiRkOGVlNzM3Yy0wMGQ4LTQwNjgtYmRiYi04OWU0YWJiNTFlYmIQxMLpAxiPi68FKhkABeaRgg-QNdeOlU6SHx6vpQ1Ru_Zu_mzwSgNuYTE
+  - name: dev
+    portalId: 8020292
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CMGNuq6hLxIEAA0ADBjEwukDII-LrwUo7ukMMhkAJ-LUTU748pJPFFXqIG4EXUbNfPX0PqNbOigAAARBAAAAeAAAAAAAAAAAgAEAAAAAAATAAMAHYAAAAAAAAAAAAABgQhkAJ-LUTYhIYnT9EbXKWXG7CEublp4_dMF7SgNuYTE
+        expiresAt: '2021-06-16T17:11:34.345Z'
+    personalAccessKey: >-
+      CiRkOGVlNzM3Yy0wMGQ4LTQwNjgtYmRiYi04OWU0YWJiNTFlYmIQxMLpAxiPi68FKhkABeaRgg-QNdeOlU6SHx6vpQ1Ru_Zu_mzwSgNuYTE
